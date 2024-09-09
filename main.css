@@ -9,6 +9,7 @@ body {
 }
 .parent{
     position: relative;
+    justify-content: space-around;
 }
 .mainS {
     background-color: rgb(245, 192, 230);
@@ -22,58 +23,58 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .main1 {
     background-color: rgb(245, 202, 192);
-    margin-top: 30px;
+    margin-top: 20px;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .main2 {
     background-color: rgb(245, 202, 192);
-    margin-top: 25px;
+    margin-top: 20px;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .main3 {
     background-color: rgb(245, 202, 192);
-    margin-top: 10px;
+    margin-top: 20px;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .main4 {
     background-color: rgb(245, 202, 192);
-    margin-top: 30px;
+    margin-top: 20px;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .main5 {
     background-color: rgb(245, 202, 192);
-    margin-top: 15px;
+    margin-top: 20px;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .sub1 {
@@ -81,7 +82,8 @@ body {
     align-items: center;
     background-color: rgb(249, 238, 224);
     display: flex;
-    justify-content: right;
+    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .sub2 {
@@ -89,15 +91,13 @@ body {
     align-items: center;
     background-color: rgb(249, 238, 224);
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .buttons {
     display: flex;
-}
-
-.btn {
-    margin: 10px;
+    justify-content: space-evenly;
 }
 
 .b {
