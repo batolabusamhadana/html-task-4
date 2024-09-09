@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(image/background.avif);
+}
+.parent{
+    position: relative;
+}
+.mainS {
+    background-color: rgb(245, 192, 230);
+    height: 100px;
+    width:100%;
+    top: 0;
+    left: 0;
+    margin-top:15px;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.main1 {
+    background-color: rgb(245, 202, 192);
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.main2 {
+    background-color: rgb(245, 202, 192);
+    margin-top: 25px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.main3 {
+    background-color: rgb(245, 202, 192);
+    margin-top: 10px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.main4 {
+    background-color: rgb(245, 202, 192);
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.main5 {
+    background-color: rgb(245, 202, 192);
+    margin-top: 15px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.sub1 {
+    height: 80px;
+    align-items: center;
+    background-color: rgb(249, 238, 224);
+    display: flex;
+    justify-content: right;
+}
+
+.sub2 {
+    height: 80px;
+    align-items: center;
+    background-color: rgb(249, 238, 224);
+    display: flex;
+    justify-content: left;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.b {
+    background-color: rgb(245, 202, 192);
+    color: rgb(249, 238, 224);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.par{
+    background-color: rgb(251, 236, 224);
+    margin: 20px;
+}
